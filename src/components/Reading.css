@@ -1,0 +1,85 @@
+.reading-section {
+    background-color: var(--bg-light);
+}
+
+.reading-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+}
+
+.book-card {
+    display: flex;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border: 1px solid #E5E7EB;
+}
+
+.book-cover-placeholder {
+    width: 100px;
+    background-color: var(--secondary-blue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.book-cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.book-content {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.book-title {
+    font-size: 1.15rem;
+    color: var(--text-primary);
+    margin-bottom: 4px;
+}
+
+.book-author {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    margin-bottom: 12px;
+}
+
+.book-thoughts {
+    position: relative;
+    margin-top: auto;
+}
+
+.quote-mark {
+    position: absolute;
+    top: -10px;
+    left: -5px;
+    font-size: 2rem;
+    color: var(--light-blue-accent);
+    opacity: 0.5;
+    font-family: serif;
+}
+
+.book-thoughts p {
+    font-size: 0.95rem;
+    color: var(--text-secondary);
+    position: relative;
+    z-index: 1;
+}
+
+@media (max-width: 480px) {
+    .book-card {
+        flex-direction: column;
+    }
+
+    .book-cover-placeholder {
+        width: 100%;
+        height: 120px;
+    }
+}

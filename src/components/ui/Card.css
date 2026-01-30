@@ -1,0 +1,15 @@
+.card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 24px;
+    border: 1px solid #E5E7EB;
+    border-top: 4px solid var(--light-blue-accent);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: all 0.3s ease;
+    height: 100%;
+}
+
+.card.no-padding {
+    padding: 0;
+    overflow: hidden;
+}
