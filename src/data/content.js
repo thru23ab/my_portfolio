@@ -93,7 +93,7 @@ export const content = {
       title: "Master's Thesis",
       description: "Wrote my Master's Thesis 'Startup Meets Big Systems: A Case Study of Veo Technologies' at Copenhagen Business School",
       tech: ["Master's Thesis", "Case Study", "Veo Technologies", "Copenhagen Business School"],
-      link: "/Master's thesis 167890.pdf",
+      link: "/masters-thesis.pdf",
       images: [
         "/Master.jpg",
         "/Master2.jpg"
