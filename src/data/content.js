@@ -83,8 +83,8 @@ export const content = {
       tech: ["Van", "Sleeping", "Eating", "Traveling"],
       link: "https://www.instagram.com/roadingwithruby/",
       images: [
-        "/Car.jpg",
         "/Jones.jpg",
+        "/Car.jpg",
         "/Lisbon.jpg"
 
       ]
