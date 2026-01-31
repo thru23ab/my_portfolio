@@ -86,7 +86,6 @@ export const content = {
         "/Jones.jpg",
         "/Car.jpg",
         "/Lisbon.jpg"
-
       ]
     },
     {
