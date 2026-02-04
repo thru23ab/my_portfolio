@@ -72,7 +72,7 @@ export const content = {
       description: "Managed daily operations and a team of 20+ staff at the Copenhagen Airport flagship store.",
       achievements: [
         "Selected to manage the highest revenue-generating unit globally ('Bar 2' in CPH Airport) after completing the rigorous 'Hell Week' leadership program.",
-        "Assumed full leadership responsibility for a team of 20+ employees at the age of 20, ensuring high performance in a high-pressure environment."
+        "Part of the leadership responsibility for a team of 20+ employees at the age of 20, ensuring high performance in a high-pressure environment."
       ]
     }
   ],
